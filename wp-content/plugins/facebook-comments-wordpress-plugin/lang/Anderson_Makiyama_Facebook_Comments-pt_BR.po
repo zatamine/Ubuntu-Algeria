@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Comments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-15 02:49-0300\n"
+"PO-Revision-Date: 2012-04-15 02:54-0300\n"
+"Last-Translator: Anderson <andersonmaki@gmail.com>\n"
+"Language-Team: Anderson Makiyama <andersonmaki@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\wamp\\www - Ganhar dinheiro Blog\\wp-content\\plugins\\facebook-comments\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: index.php:75
+msgid "Settings"
+msgstr "Configurações"
+
+#: templates/options.php:1
+msgid "OPTIONS PAGE"
+msgstr "PÁGINA DE OPÇÕES"
+
+#: templates/options.php:7
+msgid "Language"
+msgstr "Linguagem"
+
+#: templates/options.php:23
+msgid "Title"
+msgstr "Título"
+
+#: templates/options.php:27
+msgid "Width"
+msgstr "Largura"
+
+#: templates/options.php:31
+msgid "Colorscheme"
+msgstr "Padrão de Cores"
+
+#: templates/options.php:41
+msgid "Number of Comments"
+msgstr "Número de Comentários"
+
+#: templates/options.php:51
+msgid "Advanced Options"
+msgstr "Opções Avançadas"
+
+#: templates/options.php:54
+msgid "Show Facebook box Automatically"
+msgstr "Mostrar caixa de Comentários do Facebook Automaticamente"
+
+#: templates/options.php:60
+#: templates/options.php:104
+msgid "Yes"
+msgstr "Sim"
+
+#: templates/options.php:64
+#: templates/options.php:100
+msgid "No"
+msgstr "Não"
+
+#: templates/options.php:68
+msgid "on"
+msgstr "em"
+
+#: templates/options.php:70
+msgid "Pages"
+msgstr "Páginas"
+
+#: templates/options.php:72
+msgid "Show Only on theses Posts/Pages:"
+msgstr "Mostrar somente nesses Posts/Páginas:"
+
+#: templates/options.php:73
+msgid "Separate IDs with Comma (Leave Empty to All Posts/Pages)"
+msgstr "Separes os IDs com vírgula (Deixe em branco para todos Posts/Páginas)"
+
+#: templates/options.php:74
+msgid "Don't Show on theses Posts/Pages"
+msgstr "Não mostre nesses Posts/Páginas"
+
+#: templates/options.php:76
+msgid "Separate IDs with Comma"
+msgstr "Separe os IDs com vírgula"
+
+#: templates/options.php:79
+msgid "Moderation Options"
+msgstr "Opções de Moderação"
+
+#: templates/options.php:81
+msgid "Your Facebook ID"
+msgstr "Seu ID do Facebook"
+
+#: templates/options.php:85
+msgid "http://blogwordpress.ws/how-to-find-my-facebook-id"
+msgstr "http://wordpresslivro.com/como-descobrir-qual-e-seu-id-do-facebook"
+
+#: templates/options.php:86
+msgid "See how to discover your Facebook ID"
+msgstr "Veja como descobrir seu Facebook ID"
+
+#: templates/options.php:94
+msgid "List yourself as Admin"
+msgstr "Listar você como um administrador"
+
+#: templates/options.php:113
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: templates/options.php:125
+msgid "Visit Plugin's Page"
+msgstr "Visite a Página do Plugin"
+
+#: templates/options.php:125
+msgid "http://blogwordpress.ws/plugin-facebook-comments"
+msgstr "http://wordpresslivro.com/exibir-comentario-do-facebook-no-blog-wordpress"
+
+#: templates/options.php:131
+msgid "Visit Author's Blog"
+msgstr "Visite o Blog do Autor"
+
+#: templates/options.php:131
+msgid "http://blogwordpress.ws"
+msgstr "http://wordpresslivro.com"
+

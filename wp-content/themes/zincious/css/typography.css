@@ -1,0 +1,116 @@
+/*
+Section: Typography
+*/
+
+/* Font Face Import
+-----------------------------------------*/
+
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { font: normal 13px/22px Helvetica, Arial, sans-serif; }
+input, select, option { font: normal 13px/13px Helvetica, Arial, sans-serif; }
+textarea { font: normal 13px/22px Helvetica, Arial, sans-serif; }
+blockquote { font-style: italic; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+a:link, a:visited { font-weight: normal; text-decoration: none; }
+a:hover, a:active { font-weight: normal; text-decoration: underline; }
+
+
+
+/* Class selectors
+-----------------------------------------*/
+
+
+
+/* Header
+-----------------------------------------*/
+
+div#header .title a { font-size: 42px; line-height: 59px; }
+div#header .title a:hover { text-decoration: underline; }
+div#header .box h3 { 
+	font-weight: normal; font-size: 13px; line-height: 59px; 
+	font-family: 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif; 
+}
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured p { font-size: 14px; line-height: 26px; font-family: Helvetica, Arial, sans-serif; }
+div#featured .box-about p { line-height: 53px; }
+div#featured .box-about p strong a { font-weight: bold; }
+
+
+/* Post 
+-----------------------------------------*/
+
+.hentry .meta p { font-family: Georgia, sans-serif; font-style: italic; }
+
+.content-group h1 { font: bold 28px/34px Helvetica, Arial, sans-serif; }
+.content-group .hentry .title h2 { font:  16px/22px Helvetica, Arial, sans-serif; }
+.content-group .hentry .title h2 a { font:  16px/22px 'ubuntu', sans-serif; }
+
+.content-group .not-found .title h2 { font:  28px/34px 'ubuntu', Arial, sans-serif; }
+
+.content-singular h1  { font: normal 28px/34px; font-family: 'ubuntu', Arial, sans-serif; line-height: 1.6; }
+
+
+/* Post Details
+-----------------------------------------*/
+
+.post .post-box .title h2 { 
+	font-weight: normal; font-size: 18px; line-height: 24px; 
+	font-family: Georgia, sans-serif;
+}
+
+
+
+/* Comments
+-----------------------------------------*/
+
+.comment .comment-author .author, .comment .comment-author .author a { font-weight: bold; }
+.comment .comment-author, .comment .comment-actions { font: normal 12px/18px Georgia, serif; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title p.cancel-comment-reply { line-height: 24px; }
+
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar .box h3 { font: bold 14px/20px 'ubuntu', sans-serif; text-transform: uppercase; }
+
+div#sidebar .box-socialnet input { font-size: 11px; line-height: 11px; font-family: Georgia, serif; }
+
+div#sidebar .box-popular-posts ul li span.wpp-post-title { font-size: 14px; line-height: 18px; font-weight: bold;}
+div#sidebar .box-popular-posts ul li span.post-stats { font-style: italic; font-weight: normal; font-size: 12px; line-height: 14px; }
+
+table#wp-calendar th { font: bold 14px/18px Helvetica, Arial, sans-serif; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#aside .box h3 { font-family: 'ubuntu', sans-serif; text-transform: uppercase; }
+div#aside .box .interior { font-family: Helvetica, Arial, sans-serif; font-size: 11px; line-height: 22px; }
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer p { font-size: 10px; line-height: 14px; }
+
+

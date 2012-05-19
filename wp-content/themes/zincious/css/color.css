@@ -1,0 +1,161 @@
+/*
+Section: Color
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { color: #333; }
+blockquote { border-color: #c8c8c8; background: #eee none }
+blockquote blockquote { border-color: #c8c8c8; background: #fefefe none }
+blockquote blockquote blockquote { border-color: #c8c8c8; background: #eee none }
+
+a:link, a:visited { color: #882311; }
+a:hover, a:active { color: #882311; }
+
+
+/* Class selectors
+-----------------------------------------*/
+
+
+
+/* Container
+-----------------------------------------*/
+
+
+
+/* Header
+-----------------------------------------*/
+
+/* div#header { background: #150903 none; }*/
+div#header .title a { background: transparent url('../images/site-name.png') left top no-repeat; }
+div#header .box-socialnet h3 { color: #D5O; _text-shadow: 1px 1px #eee
+; }
+div#header .box-socialnet ul li.facebook { background: transparent url('../images/icon-sn-facebook.png') left top no-repeat; }
+div#header .box-socialnet ul li.googlebuzz { background: transparent url('../images/icon-sn-googlebuzz.png') left top no-repeat; }
+div#header .box-socialnet ul li.rss { background: transparent url('../images/icon-sn-rss.png') left top no-repeat; }
+div#header .box-socialnet ul li.twitter { background: transparent url('../images/icon-sn-twitter.png') left top no-repeat; }
+div#header .box-socialnet ul li.mail { background: transparent url('../images/icon-sn-mail.png') left top no-repeat; }
+
+
+/* Featured
+-----------------------------------------*/
+
+/* div#featured { background: #271208 none; } */
+div#featured .pad { background: transparent url('../images/bg_slide.png') left bottom no-repeat; }
+
+
+/* Body
+-----------------------------------------*/
+
+div#body { 
+	/*text-shadow: #fff 1px 1px; */
+	border-top-color: #fff; border-bottom-color: #fff;
+}
+div#body .pad {  }
+
+div#content .pad { background: transparent none; }
+div#sidebar .pad { background: transparent none; }
+
+
+
+/* Post
+----------------------------------------*/
+.hentry { background: #fff none; }
+.hentry .meta p { color: #b5b5b5; }
+
+.content-group .hentry .thumbnail a { background: #000 none; }
+.content-group .hentry .title { background-position: left bottom; background-repeat: no-repeat; }
+.content-group .hentry-1 .title { background-image: url('../images/ribbon-post-title-col-1.png'); } 
+.content-group .hentry-2 .title { background-image: url('../images/ribbon-post-title-col-2.png'); } 
+.content-group .hentry-3 .title { background-image: url('../images/ribbon-post-title-col-3.png'); } 
+.content-group .hentry h2 { color: #fff; text-shadow: 1px 1px #eee; }
+.content-group .hentry-1 h2 { background: transparent url('../images/header_bb.png'); } 
+.content-group .hentry-2 h2 { background: transparent url('../images/header_bb.png'); } 
+.content-group .hentry-3 h2 { background: transparent url('../images/header_bb.png'); } 
+.content-group .hentry h2 a { color: #fff; text-shadow: 1px 1px #777; }
+.content-group .not-found .title h2 { color: #882311; text-shadow: 0px 0px #eee; }
+
+.content-singular h1 { color: #D50; background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+
+.not-found { background: #fff none; }
+.not-found .title { background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+.not-found h1 { color: #882311; background: transparent url('../images/bd-post-title.png') left bottom repeat-x; }
+
+.post .post-box .title { background: transparent url('../images/bd-post-box-title.png') left bottom repeat-x; }
+.post .post-box-about-author .title h2 { background: transparent url('../images/bg-post-box-author.png') 0 0 no-repeat; }
+.post .post-box-sb h2 { background: transparent url('../images/bg-post-box-spread-love.png') 0 0 no-repeat; }
+.post .post-box-sb ul li { background: transparent none; }
+.post .post-box-sb img { background: transparent none; }
+.post .post-box-related h2 { background: transparent url('../images/bg-post-box-related-posts.png') 0 0 no-repeat; }
+.post .post-box-comments h2 { background: transparent url('../images/bg-post-box-comments.png') 0 0 no-repeat; }
+.post .post-box-trackbacks h2 { background: transparent url('../images/bg-post-box-trackbacks.png') 0 0 no-repeat; }
+.post .post-box-reply h2 { background: transparent url('../images/bg-post-box-comment-add.png') 0 0 no-repeat; }
+
+.comment { background: #f2f2f2 none; }
+.comment .comment-author { background: #ccc none; }
+.comment .comment-avatar img { background: #fff none; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title p.cancel-comment-reply { background: transparent none; }
+
+form#comment-form p.input input { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form small { color: #b7b7b7; }
+form#comment-form textarea { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar .box { background: #fff; }
+div#sidebar .box h3 { color: #333; }
+div#sidebar .box a { color: #000; }
+div#sidebar .box a:hover { color: #882311; }
+div#sidebar .box ul li { background: transparent url('../images/bullet-list-item-sidebar.png') left 10px no-repeat; }
+
+
+div#sidebar .box-socialnet input { 
+	color: #333; text-shadow: 0px 0px #fff;
+	background: transparent url('../images/input-search.png') left top no-repeat; 
+}
+div#sidebar .box-socialnet button { background: transparent url('../images/button-search.png') left top no-repeat; }
+
+div#sidebar .box-popular-posts .interior ul li span.post-stats { color: #999; }
+
+div#sidebar .box-tweet ul li { background: transparent url('../images/bullet-list-item-sidebar.png') left 8px no-repeat; color: #999; }
+div#sidebar .box-tweet ul li abbr { color: #000; }
+div#sidebar .box-tweet ul li abbr:hover { color: #882311; }
+
+table#wp-calendar th { border-color: #666; background: #666 none; color: #fff; text-shadow: 0px 0px #fff; }
+table#wp-calendar td { border-color: #ccc; }
+
+
+
+div#aside { background: #F9F9F9 none; }
+div#aside .box { color: #777; text-shadow: 1px 1px #eee; }
+div#aside .box h3 { color: #D50; text-shadow: 1px 1px #eee; }
+div#aside .box a:link, div#aside .box a:visited { color: #C50; }
+div#aside .box a:hover, div#aside .box a:active { color: #963; }
+div#aside .box ul li { background: transparent url('../images/bullet-aside.gif') 0 8px no-repeat; }
+
+
+
+/* Footer
+ * color: #391b0d; _text-shadow: -1px -1px #fc9;
+-----------------------------------------*/
+
+div#footer { 
+	background:  url('../images/menu_bg.png') left top repeat-x;
+	 color:white;
+	 border-bottom-color: #27130a;
+}
+div#footer a:link, div#footer a:visited { color: #391b0d; text-shadow: -1px -1px #eee;  } 
+
+
+

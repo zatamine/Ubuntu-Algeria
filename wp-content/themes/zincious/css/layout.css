@@ -1,0 +1,251 @@
+/*
+Section: Layout
+*/
+
+
+/* HTML Tag selectors
+-----------------------------------------*/
+
+body { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0; padding: 1em 3em; border: solid 1px; overflow: auto;}
+iframe { display: block; margin: 0; padding: 0; }
+a img { border: 0 none; }
+abbr { border: 0 none; }
+
+
+
+/* Class selectors
+-----------------------------------------*/
+
+.no-display { display: none; }
+.clear { clear: both; }
+.read-more { display: block; margin: 0; padding: 0; height: 46px; } 
+.read-more a { 
+	display: block; margin: 0; padding: 0; float: left; width: 162px; height: 46px; padding: 0; 
+	border-bottom: 0 none;
+} 
+
+/* Container
+-----------------------------------------*/
+
+div#container {
+
+}
+
+
+/* Header
+-----------------------------------------*/
+
+div#header {   background-image: url("../images/dotted-bg.png");  }
+div#header .pad { width: 942px; margin: 0 auto;   }
+div#header h3 { display: none; }
+div#header .box-masthead { height: 20px; margin: 0; float: left; }
+div#header .title { display: block; margin: 0; padding: 0; }
+div#header .title a { 
+	display: block; width: 200px; height: 30px; margin: 0; padding: 0; 
+	float: left; text-indent: -999999px; outline: none; border-bottom: 0 none;
+}
+div#header .description { display: none; }
+div#header .box-socialnet { float: right; }
+div#header .box-socialnet .title { float: left; }
+div#header .box-socialnet h3 { display: block; margin: 0; padding: 0; }
+div#header .box-socialnet .interior { float: right; }
+div#header .box-socialnet ul { display: block; margin: 19px 0 0 4px; padding: 0; list-style-type: none; }
+div#header .box-socialnet ul li { float: left; width: 16px; height: 16px; margin: 0 0 0 6px; padding: 0; }
+div#header .box-socialnet ul li a { display: block; width: 16px; height: 16px; text-indent: -999999px; margin: 0; padding: 0; }
+
+
+
+/* Featured
+-----------------------------------------*/
+
+div#featured { margin: 0; padding: 0; position: relative; background: url('../images/ubuntu/bg.png') left top repeat-x; }
+div#featured .pad { width: 942px; margin: 0 auto; height: 340; }
+div#featured .interior { width: 860px; margin: 0 auto; height: 340; }
+div#featured h2 { display: none; }
+
+
+
+/* Body
+-----------------------------------------*/
+
+div#body .pad { padding: 32px 0; }
+div#body .pad { width: 942px; margin: 0 auto; padding: 0; }
+
+div#body .content-group { padding: 30px 0 0 0; }
+div#body .content-singular { padding: 30px 0; width: 642px; float: left; }
+div#body .content-singular .pad { width: auto; }
+
+div#sidebar { width: 280px; padding: 30px 0 0 0; margin: 0; float: right; }
+div#sidebar .pad { width: 280px; margin: 0; }
+
+
+
+/* Post
+-----------------------------------------*/
+
+.hentry { }
+.hentry .excerpt p { display: block; margin: 0; padding: 5px 10px 10px 10px; }
+.hentry .excerpt span { display: block; }
+
+.content-group h1 { display: block; margin: 0 0 0 30px; padding: 0 0 30px 0; text-align: center; width: 942px; }
+.content-group .hentry { width: 298px; float: left; height: 350px; margin: 0 21px 21px 0; 
+	box-shadow: 0 0 5px rgba(221, 72, 20, 1);
+    -webkit-box-shadow: 0 0 5px rgba(221, 72, 20, 1); 
+    -moz-box-shadow: 0 0 5px rgba(221, 72, 20, 1);
+    border:1px solid rgba(221,72,20, 0.8);  position: relative; }
+.content-group .hentry-3 { margin: 0 0 15px; }
+.content-group .hentry .title { max-width: 250px;  position: absolute; left: -11px; top: 15px; padding: 0 0 10px 0; }
+.content-group .hentry .thumbnail a { display: block; margin: 0; padding: 0; text-align: center; height: 167px; } 
+.content-group .hentry h2 { display: block; padding: 10px 20px 10px 48px; margin: 0; }
+.content-group .meta { padding: 10px 10px 0 10px; }
+.content-group .meta p { display: block; margin: 0; padding: 0; }
+
+.content-group .not-found { padding: 15px; width: 942px; border: 0 none; height: auto; }
+.content-group .not-found .title { position: relative; margin: 0; padding: 0 0 10px 0; left: 0; top: 0; max-width: 100%; }
+.content-group .not-found .title h2 { display: block; margin: 0; padding: 0 0 10px 0; text-align: left; border-bottom: 1px solid; }
+
+.content-singular .hentry { padding: 15px; }
+.content-singular .hentry h1 { display: block; margin: 0; padding: 0 0 10px 0; text-align: left; border-bottom: 1px solid; }
+.content-singular .hentry .meta p { margin: 0 0 25px 0; padding: 5px 0 0 0; }
+
+.not-found .title h2 { padding: 0 0 18px 0; }
+
+
+/* Post Details
+-----------------------------------------*/
+
+.post .post-box { margin: 0 0 30px 0; }
+.post .post-box .title { margin: 0; padding: 0; }
+.post .post-box .title h2 { display: block; margin: 0; padding: 12px 10px 15px 45px; width: auto; float: none; }
+
+.post .post-box-about-author img { float: left; margin: 0 10px 0 0; }
+
+.post .post-box-sb .interior { }
+.post .post-box-sb .interior ul { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; height: 32px; }
+.post .post-box-sb .interior ul li { display: block; margin: 0 15px 0 0; padding: 0; float: left; }
+.post .post-box-sb .interior ul li a { display: block; float: left; border: 0 none; }
+.post .post-box-sb .interior ul li a img { border: 0 none; padding: 0;}
+
+.post .post-box-reply { margin: 0; }
+
+
+
+/* Comments
+-----------------------------------------*/
+
+ol.comments-list { display: block; list-style: none; margin: 15px 0 0 0; padding: 0; }
+ol.comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0; }
+ol.comments-list li.comment ul.children { margin: 0 0 0 4em; }
+
+.comment { margin: 0 0 10px 0; }
+.comment .comment-author { padding: 10px; }
+.comment .comment-avatar { float: left; }
+.comment .comment-avatar img { margin: 0 10px 0 0; padding: 4px; }
+.comment .comment-meta { float: left; }
+.comment .comment-meta span { display: block; margin: 0; padding: 0; }
+.comment .comment-actions { float: right; }
+.comment .comment-details-interior { padding: 0 10px 10px 10px; }
+.comment .comment-details-interior ol, 
+.comment .comment-details-interior ul { padding-top: 1em; padding-bottom: 1em; }
+
+ol.trackbacks-list { margin: 0 0 0 3em; padding: 15px 0 0 0; }
+
+
+
+/* Comment Form
+-----------------------------------------*/
+
+.post .post-box-reply .title { margin: 0 0 10px 0; }
+.post .post-box-reply .title h2 { display: block; margin: 0; padding: 12px 10px 12px 45px; border-bottom: 0 none; float: left; }
+.post .post-box-reply .title p.cancel-comment-reply { display: block; float: right; margin: 0; padding: 12px 0; width: auto; }
+
+form#comment-form { display: block; margin: 0; padding: 0; }
+form#comment-form p { display: block; margin: 0 0 20px 0; padding: 0; line-height: 27px; }
+form#comment-form p.input label { display: none; }
+form#comment-form p.input input { width: 390px; padding: 10px; border: 1px solid; }
+form#comment-form p.textarea { display: block; margin: 5px 0 10px 0;  }
+form#comment-form p.textarea label { display: none; }
+form#comment-form p.button { display: block; text-align: left; float: right; margin: 0; padding: 0; }
+form#comment-form p.subscribe-to-comments { margin: 0; padding: 0; float: left; }
+form#comment-form textarea { width: 558px; height: 148px; padding: 5px 10px; border: 1px solid; }
+form#comment-form button { 
+	display: block; width: 99px; height: 29px; margin: 0; padding: 0; float: right; border: 0; cursor: pointer; http://www.facebook.com/paddsolutions
+}
+form#comment-form button span { display: none; }
+
+
+
+/* Sidebar
+-----------------------------------------*/
+
+div#sidebar h2 { display: none; }
+div#sidebar .box { margin: 0 0 20px 0; padding: 15px; }
+div#sidebar .box .title { margin: 0 0 18px 0; padding: 0}
+div#sidebar .box .interior { padding: 0; }
+div#sidebar .box h3 { display: block; margin: 0; padding: 0;  }
+div#sidebar .box ul { display: block; margin: 0; padding: 0; }
+div#sidebar .box ul li { display: block; margin: 0; padding: 2px 0 2px 13px; }
+div#sidebar .box ul ul { display: block; margin: 0; padding: 0; }
+
+div#sidebar .box-ads .interior { width: 250px; margin: 0 auto; padding: 0; }
+div#sidebar .box-ads a { border: 0 none; }
+div#sidebar .box-ads img { border: 0 none; margin: 0; }
+div#sidebar .box-ads span { display: block; margin: 0 0 0 0; padding: 0; float: left; }
+div#sidebar .box-ads span.ads1, div#sidebar .box-ads span.ads3 { margin-right: 0; } 
+div#sidebar .box-ads span.ads3, div#sidebar .box-ads span.ads4 { margin-bottom: 0; } 
+
+div#sidebar .box-popular-posts { padding-bottom: 1px; }
+div#sidebar .box-popular-posts .interior ul { display: block; margin: 0; padding: 0; list-style: none; }
+div#sidebar .box-popular-posts .interior ul li { min-height: 57px; margin: 0 0 16px 0; padding: 0; }
+div#sidebar .box-popular-posts .interior ul li img { float: left; }
+div#sidebar .box-popular-posts .interior ul li span.wpp-post-title { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-popular-posts .interior ul li span.post-stats { display: block; margin: 0 0 0 67px; }
+div#sidebar .box-popular-posts .interior ul li a:hover span { text-decoration: underline; }
+
+div#sidebar .box-tweet ul li { padding: 0 0 0 13px; margin: 0 0 1.1em 0; }
+div#sidebar .box-tweet ul li abbr { display: block; }
+
+div#flickrrss { position: relative; height: 200px; }
+div#flickrrss .interior { width: 290px; margin: 0; position: absolute; }
+div#flickrrss a { display: block; float: left; margin: 0 13px 13px 0; border: 0 none; }
+div#flickrrss img { border: 0 none; }
+
+table#wp-calendar { width: 256px; }
+table#wp-calendar caption { text-align: right; }
+table#wp-calendar th, table#wp-calendar td { border: 1px solid; }
+table#wp-calendar td { text-align: right; padding: 0 6px; }
+table#wp-calendar td.pad { border: 0 none; }
+table#wp-calendar td#prev, table#wp-calendar td#next { border: 0 none; }
+table#wp-calendar td#prev { text-align: left; }
+table#wp-calendar td#next { text-align: right; }
+
+
+
+/* Aside
+-----------------------------------------*/
+
+div#aside { padding: 30px 0; }
+div#aside .pad { width: 942px; margin: 0 auto; }
+
+div#aside .bar { width: 196px; float: left; margin: 0 40px 0 0; }
+div#aside .bar-1 { width: 150px; }
+div#aside .bar-4 { width: 280px; margin: 0; }
+div#aside .box   { padding: 5px 10px 5px 10px; border-right: 1px dotted #DD4814;  border-left:1px dotted #B34814;}
+div#aside .box h3 { display: block; padding: 0 0 10px 0; margin: 0 0 8px 0; }
+div#aside .box ul { display: block; margin: 0; padding: 0; list-style-type: none; }
+div#aside .box ul li { display: block; margin: 0 0 5px 0; padding: 0; list-style-type: none; text-indent: 1em; }
+div#aside .box ul { display: block; margin: 0; padding: 0; list-style-type: none; }
+div#aside .box ul ul { display: block; margin: 5px 0 -5px 1em; padding: 0; list-style-type: none; }
+
+
+
+/* Footer
+-----------------------------------------*/
+
+div#footer { padding: 15px 0; border-top: 1px solid; border-bottom: 1px solid; }
+div#footer .pad { width: 942px; margin: 0 auto; }
+div#footer p { display: block; margin: 0; padding: 0; }
+div#footer p.copyright { float: left; }
+div#footer p.annotation { float: right; width: 420px; }

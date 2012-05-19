@@ -1,0 +1,80 @@
+
+/* Layout
+-----------------------------------------*/
+
+div#menubar { height: 80px; }
+div#menubar .pad { width: 942px; margin: 0 auto;}
+div#menubar #mainmenu { float: left; width: 942px;  }
+div#menubar a { border-bottom: 0 none; }
+div#menubar h3 { display: none; }
+div#menubar ul {  display: block; margin: -75px 0 0 0; padding: 0 0 0 15px; list-style: none; height: 50px; float:right; }
+div#menubar ul li { display: block; padding: 0 5px 0 5px; margin: 2px 0 0 0; float: left; position: relative; height: 50px; border-right: 1px solid #DD4814;  border-left:1px solid #B34814; }
+div#menubar ul ul { 
+	position: absolute; display: none; width: 15em; float: none; 
+	margin: 0; padding: 0; left: 0; height: auto; z-index: 9999999;
+}
+div#menubar ul ul li { padding: 0; margin: 0; float: none; height: auto; }
+div#menubar ul ul ul { float: left; margin: 0; top: 0; padding: 0;}
+
+div#menubar ul li a { display: block; margin: 0; padding: 0 10px; outline: none; text-decoration: none; }
+div#menubar ul li a span.sf-sub-indicator { float: right; padding: 0 0 0 7px; }
+
+div#menubar ul ul a { display: block; margin: 0; padding: 10px 15px; outline: none; height: auto; border: 0 none; }
+div#menubar ul ul a span.sf-sub-indicator { display: block; float: right; height: auto; }
+
+div#menubar ul li:hover a, div#menubar ul li.hover a {  }
+div#menubar ul li.current_page_item a { }
+div#menubar ul li.current-menu-item a { }
+
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { display: block; z-index: 999999; }
+
+.box-search { float: right; margin: 12px 0 0 0; }
+.box-search label { display: none; }
+.box-search span.input { display: block; }
+.box-search input { width: 210px; margin: 0 0 0 5px; padding: 5px 10px 5px 20px; border: 0 none; font-family: 'ubuntu', sans-serif;  box-shadow: 0 0 5px rgba(221, 72, 20, 1);
+    -webkit-box-shadow: 0 0 5px rgba(221, 72, 20, 1); 
+    -moz-box-shadow: 0 0 5px rgba(221, 72, 20, 1);
+    border:1px solid rgba(221,72,20, 0.8); }
+.box-search button { display: none; }
+
+div#logo {   margin-top: -12px; width: 200px;}
+
+
+
+/* Colors and Images
+-----------------------------------------*/
+
+div#menubar {background: transparent url('../images/menu_bg.png') left top repeat-x; }
+div#menubar ul li { }
+div#menubar ul li a { color: #fff; _text-shadow: #000 1px 1px; }
+div#menubar ul li:hover a { color: #cdcdcd; }
+div#menubar ul li.hover a { color: #cdcdcd; }
+div#menubar ul li.current_page_item a { color: #cdcdcd; }
+div#menubar ul li.current-menu-item a { color: #cdcdcd; }
+
+div#menubar ul li:hover ul { }
+div#menubar ul li.hover ul { }
+
+div#menubar ul li:hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat; }
+div#menubar ul li.hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat; }
+div#menubar ul li:hover li:hover a { color: #cdcdcd; }
+div#menubar ul li.hover li.hover a { color: #cdcdcd; }
+
+div#menubar ul li:hover li:hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat;  }
+div#menubar ul li.hover li.hover li a { color: #963; background: transparent url('../images/bg-menubar-item-2.png') left top repeat;  }
+div#menubar ul li:hover li:hover li:hover a { color: #fff; }
+div#menubar ul li.hover li.hover li.hover a { color: #fff; }
+
+div#menubar .box-search input { 
+	color: #fff;
+	background: transparent url('../images/input-search.png') left top no-repeat; 
+}
+
+
+/* Typography
+-----------------------------------------*/
+
+div#menubar ul li a { font: normal 14px/55px  'Ubuntu', sans-serif;  ; _text-transform: uppercase; }
+div#menubar ul ul li a { font: normal 11px/20px Helvetica, Arial, sans-serif; }
+
+div#menubar .box-search input { font: normal 11px/11px 'Lucida Grande', 'Lucida Sans', Verdana, sans-serif; }

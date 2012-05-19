@@ -1,0 +1,22 @@
+
+div.pagination { 
+	width: 942px; clear: both;
+	padding: 10px 0 30px 0; height: 28px; 
+	text-align: center;
+}
+div.pagination span, div.pagination a {
+	display: inline-block; height: 28px; border: 1px solid #93867c;
+	margin: 0 10px 0 0; padding: 0 10px; text-decoration: none;
+	color: #D50; background: #fff;
+	font-size: 11px; line-height: 28px; font-weight: bold; text-transform: uppercase;
+	font-family: 'ubuntu', sans-serif;
+}
+
+div.pagination span.pages { color: #666; }
+div.pagination span.pages span.n {
+	display: inline; color: #D50; margin: 0; padding: 0; border: 0 none; float: none;
+}
+div.pagination span.current, div.pagination a:hover, div.pagination a:active {
+	color: #fff; background: #D50 none;
+}
+

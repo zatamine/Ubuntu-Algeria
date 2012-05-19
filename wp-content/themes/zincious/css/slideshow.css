@@ -1,0 +1,68 @@
+
+div#slideshow { 
+	position: relative; width: 742px; height: 300px; padding: 20px 0; margin: 0 auto;
+}
+div#slideshow .list { position: absolute; width: 742px; height: 300px; z-index: 1; overflow: hidden; }
+
+div#slideshow .button {
+	display: block; width: 64px; height: 64px; position: absolute; top: 100px;
+	outline: 0 none;
+	/*
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+	*/
+}
+/*
+div#slideshow .button:hover {
+	filter:alpha(opacity=1);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+*/
+div#slideshow #jqc-prev { 
+	border-bottom: 0 none;
+	left: -100px; background: transparent url('../images/slideshow/arrow-l.png') left top no-repeat;
+}
+div#slideshow #jqc-next { 
+	border-bottom: 0 none;
+	right: -100px; background: transparent url('../images/slideshow/arrow-r.png') right top no-repeat;
+}
+
+div#slideshow .item { width: 742px; height: 300px; margin: 0; }
+div#slideshow .item .image { display: block; float: right; padding:  0; margin: 0 -20px 0 0; }
+div#slideshow .item .image a { display: block; position: relative}
+div#slideshow .item .image img { padding: 16px 54px 98px 54px; background: transparent url('../images/bg-featured-image.png') center center no-repeat; }
+div#slideshow .item .meta  { width: 283px; padding: 0 0 0 20px; float: left; }
+div#slideshow h3 { 
+	font: bold 28px/32px'ubuntu', sans-serif; 
+	display: block; padding: 0; margin: 0 0 20px 0; 
+}
+div#slideshow h3 a { 
+	color: #D50;
+}
+div#slideshow h3 a:hover, div#slideshow h3 a:active { 
+	border: 0 none;
+	text-decoration: underline;
+}
+div#slideshow p { 
+	display: block; padding: 0; margin: 0 0 20px 0; font: normal 12px/24px Helvetica, Arial, sans-serif; 
+	color: #7f7f7f; text-shadow: #eee 1px 1px;
+}
+div#slideshow p.read-more { 
+	background: transparent url('../images/button-read-more-featured.png') left top no-repeat; text-align: center
+}
+div#slideshow p.read-more a { text-indent: -999999px; }
+div#slideshow p.read-more a:hover { }
+
+
+div#slideshow div#jqc-pages { position: absolute; width: 324px; top: 230px; left: 549px; text-align: center; }
+div#slideshow div#jqc-pages button { 
+	margin: 0 2px; padding: 0; width: 15px; height: 15px; border: 0 none; outline: none;
+	background: transparent url('../images/slideshow/slide-no.png') left top no-repeat;
+}
+div#slideshow div#jqc-pages button span { display: none; }
+
+div#slideshow div#jqc-pages button.jqc-active { background-position: left bottom; }
